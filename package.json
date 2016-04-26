@@ -1,0 +1,8 @@
+{
+  "name": "chalk_tutorial",
+  "version": "0.0.1",
+  "dependencies": {
+    "chalk": "1.1.3",
+    "express": "4.13.3"    
+  }
+}

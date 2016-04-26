@@ -1,0 +1,11 @@
+Vamos a ver como usar el módulo <b>chalk</b>, que sirve para escribir en consola con tipos de letra. Esto puede ser muy interesante para por ejemlo, ver errores u operaciones que han funcionado correctamente. Vamos a ver un sencillo ejemplo de código de us uso. Lo primero, vamos a definir una serie de tipos de letra por defecto, en un fichero que llamaremos <b>brushes.js</b>
+
+[brushes.js]
+
+Como vemos, es un sencillo objeto, que exportamos para poder utilizar como módulo dentro de nuestra aplicación. Vamos a ver como se usa:
+
+[app.js]
+
+Es así de sencillo, y con esto, podemos, de un simple vistazo, ver si algo ha fallado o no. Vamos a ver un ejemplo de como podríamos ver esto en pantalla. Para ello, vamos a escribir una sencilla aplicación de Express, en la que una de las rutas dará un error, y la otra funcionará correctamente.
+
+[error_usage.js]
